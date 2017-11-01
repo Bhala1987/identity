@@ -24,9 +24,7 @@ import java.util.List;
 /**
  * Created by Bhala on 29-10-2017.
  */
-@Repository
 @Component
-@Controller
 public class Service {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(Service.class);
