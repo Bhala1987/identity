@@ -9,7 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 
 @ContextConfiguration(classes = TestConfig.class)
 @DirtiesContext
-public class PageRepository extends Service {
+public class PageRepository extends identityService {
     protected @Autowired
     UKGovVehicleInfoPage ukGovVehicleInfoPage;
 
