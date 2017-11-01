@@ -24,10 +24,10 @@ import java.util.List;
 /**
  * Created by Bhala on 29-10-2017.
  */
-@Component
-public class Service {
+@Service
+public class identityService {
 
-    private final static Logger LOGGER = LoggerFactory.getLogger(Service.class);
+    private final static Logger LOGGER = LoggerFactory.getLogger(identityService.class);
 
     protected static File[] ListFiles(String DirectoryName) throws IOException {
         //project directory
